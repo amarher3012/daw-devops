@@ -1,6 +1,11 @@
-from flask import Flask, render_template
-from datetime import datetime
+"""
+docstring
+"""
+
 import locale
+from datetime import datetime
+from flask import Flask, render_template
+
 
 app = Flask(__name__)
 locale.setlocale(locale.LC_TIME, "")
@@ -8,6 +13,9 @@ locale.setlocale(locale.LC_TIME, "")
 
 @app.route("/")
 def homepage():
+    """
+    docstring
+    """
     the_time = datetime.now().strftime("%A, %d %b %Y %H:%M")
 
     # Render HTML with variable
@@ -18,6 +26,9 @@ def homepage():
 
 @app.route("/status")
 def status():
+    """
+    docstring
+    """
     return "OK Todo"
 
 

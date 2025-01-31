@@ -1,4 +1,4 @@
-import pytest
+# import pytest
 
 from app import app  # Flask instance of the API
 

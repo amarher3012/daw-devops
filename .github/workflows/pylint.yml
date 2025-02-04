@@ -4,7 +4,7 @@ on:
         branches:
             - main # Cambia 'main' según tu rama principal
         paths:
-            - '**.py'
+            - src/**
 jobs:
     build:
         runs-on: ubuntu-latest

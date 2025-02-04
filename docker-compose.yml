@@ -1,7 +1,7 @@
 version: '3.1'
 
 services:
-    galeria:
+    test-app:
         container_name: test-app
         image: amarher/test-app:latest
         ports:

@@ -20,7 +20,7 @@ def homepage():
 
     # Render HTML with variable
     return render_template(
-        "index.html", the_time=the_time, tema="dog", alto="600", ancho="920"
+        "index.html", the_time=the_time, tema="cat", alto="600", ancho="920"
     )
 
 
